@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	//Figure out how to hide keys before adding to git
+	//Figure out how to hide Stripe keys before adding to git
 	http.HandleFunc("/create-payment-intent", handleCreatePaymentIntent)
 	http.HandleFunc("/health", handleHealth)
 
